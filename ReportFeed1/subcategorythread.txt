@@ -1,0 +1,7 @@
+SELECT SUM(contributionFactor) as count,subcategory  FROM subcategorycomputeindex where cookie_id in (SELECT DISTINCT(cookie_id) FROM enhanceduserdatapatrika where referrer= 'http___womansera_com_trending_moles_on_these_areas_signify_wealth_and_luck_read_to_know' and channel_name = 'Womanseraindia_indiagate' and date between '2017-01-01' and '2017-01-31' Order by cookie_id limit 0,1) group by subcategory limit 20000000
+SELECT SUM(contributionFactor) as count,audience_segment FROM audiencesegmentcomputeindex1 where cookie_id in (SELECT DISTINCT(cookie_id) FROM enhanceduserdatapatrika where referrer= 'http___womansera_com_trending_moles_on_these_areas_signify_wealth_and_luck_read_to_know' and channel_name = 'Womanseraindia_indiagate' and date between '2017-01-01' and '2017-01-31' Order by cookie_id limit 0,1) group by audience_segment limit 20000000
+Total cookie subcategory count execution time: 1987
+Total cookie audience count execution time: 2526
+2 Responses recieved.
+
+[subcategory=1.0]
